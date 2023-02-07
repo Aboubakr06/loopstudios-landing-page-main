@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/)
+- Solution URL: (https://www.frontendmentor.io/solutions/loopstudios-landing-page-with-tailwindcss-NOGD_VUbVU)
 - Live Site URL: (https://fabulous-maamoul-9e6fd6.netlify.app/)
 
 ## My process
