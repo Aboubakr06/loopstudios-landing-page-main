@@ -893,6 +893,14 @@ video {
     bottom: -4rem;
   }
 
+  .lg\:bottom-8 {
+    bottom: 2rem;
+  }
+
+  .lg\:left-8 {
+    left: 2rem;
+  }
+
   .lg\:top-0 {
     top: 0px;
   }
@@ -989,6 +997,11 @@ video {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:font-normal {
