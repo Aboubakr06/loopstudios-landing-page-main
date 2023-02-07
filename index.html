@@ -21,7 +21,7 @@
 
 <body class="min-w-full text-[0.938rem] font-JosefinSans font-light">
 
-  <header class="bg-[url('/images/mobile/image-hero.jpg')] bg-cover bg-no-repeat px-6 pt-10 pb-56 max-lg:relative lg:bg-[url('/images/desktop/image-hero.jpg')] lg:bg-bottom lg:pt-12 lg:pb-60 lg:px-28">
+  <header class="bg-[url('/images/mobile/image-hero.jpg')] bg-cover bg-no-repeat px-6 pt-10 pb-56 max-lg:relative lg:bg-[url('/images/desktop/image-hero.jpg')] lg:bg-bottom lg:pt-12 lg:px-28">
     <div class="flex items-center justify-between">
 
       <img class="z-10" src="images/logo.svg" alt="Logo">
@@ -40,20 +40,20 @@
 
     </div>
     <h1
-      class="mt-40 border-2 border-solid border-[var(--primary-white)] text-[var(--primary-white)] uppercase p-8 text-3xl tracking-widest">
+      class="mt-40 border-2 border-solid border-[var(--primary-white)] text-[var(--primary-white)] uppercase p-8 text-3xl tracking-widest lg:w-1/2 lg:text-6xl lg:py-8 lg:px-6">
       Immersive experiences that deliver</h1>
   </header>
 
-  <main class="grid gap-16 px-8 py-20">
-    <section class="grid gap-12 text-center">
-      <picture>
+  <main class="grid gap-16 px-8 py-20 lg:px-28 lg:py-32 lg:gap-32">
+    <section class="grid gap-12 text-center lg:grid-cols-3 lg:relative">
+      <picture class="lg:col-span-2">
         <source media="(min-width:64em)" srcset="images/desktop/image-interactive.jpg">
         <img class="w-full" src="images/mobile/image-interactive.jpg" alt="" aria-hidden="true">
       </picture>
-      <div class="grid gap-12">
+      <div class="grid gap-12 place-self-center bg-[var(--primary-white)] lg:absolute lg:w-2/4 lg:right-0 lg:-bottom-16 lg:p-16 lg:text-start lg:gap-8">
         <h2 class="text-[var(--primary-black)] text-4xl uppercase">The leader in interactive VR</h2>
 
-        <p class="text-[var(--primary-dark-grey)] text-lg font-Alata font-normal">Founded in 2011, Loopstudios has been
+        <p class="text-[var(--primary-dark-grey)] max-lg:text-lg font-Alata font-normal">Founded in 2011, Loopstudios has been
           producing world-class virtual reality
           projects for some of the best companies around the globe. Our award-winning
           creations have transformed businesses through digital experiences that bind
@@ -61,11 +61,11 @@
       </div>
     </section>
 
-    <section class="grid gap-12">
+    <section class="grid gap-12 lg:relative">
 
-      <h2 class="text-center text-[var(--primary-black)] text-4xl uppercase">Our creations</h2>
+      <h2 class="text-center text-[var(--primary-black)] text-4xl uppercase lg:text-start">Our creations</h2>
 
-      <div class="grid gap-8 text-[var(--primary-white)] text-2xl uppercase md:grid-cols-2">
+      <div class="grid gap-8 text-[var(--primary-white)] text-2xl uppercase md:grid-cols-2 lg:grid-cols-4">
 
         <a class="relative hover:text-[var(--primary-black)]" href="#">
           <picture class="grid bg-[var(--primary-grey)] hover:bg-[var(--primary-white)]">
@@ -133,15 +133,15 @@
         
       </div>
 
-      <a class="place-self-center font-Alata font-normal uppercase text-xl tracking-[0.2em] px-8 py-2 border-2 border-[var(--primary-black)] text-[var(--primary-black)] hover:text-[var(--primary-white)] hover:bg-[var(--primary-black)]" href="#">See all</a>
+      <a class="place-self-center font-Alata font-normal uppercase text-xl tracking-[0.2em] px-8 py-2 border-2 border-[var(--primary-black)] text-[var(--primary-black)] hover:text-[var(--primary-white)] hover:bg-[var(--primary-black)] lg:absolute lg:top-0 lg:right-0" href="#">See all</a>
     </section>
   </main>
 
-  <footer class="grid place-items-center gap-8 text-center px-4 p-16 bg-[var(--primary-black)] font-Alata font-normal">
+  <footer class="grid place-items-center gap-8 text-center px-4 py-16 bg-[var(--primary-black)] font-Alata font-normal lg:grid-cols-2">
     <div class="grid gap-8">
       <img src="images/logo.svg" alt="Logo">
     <ul
-        class="flex max-lg:flex-col max-lg:gap-4 text-2xl text-[var(--primary-white)]">
+        class="flex max-lg:flex-col gap-4 text-2xl text-[var(--primary-white)] lg:text-xl">
         <li><a class="hover:underline underline-offset-8 decoration-1" href="#">About</a></li>
         <li><a class="hover:underline underline-offset-8 decoration-1" href="#">Careers</a></li>
         <li><a class="hover:underline underline-offset-8 decoration-1" href="#">Events</a></li>
@@ -150,7 +150,7 @@
       </ul>
     </div>
 
-    <div class="grid place-items-center gap-8">
+    <div class="grid place-items-center gap-8 lg:place-items-end">
     <ul
         class="flex items-center gap-4 text-2xl">
         <li><a href="#"><img class="w-8 pb-2 hover:border-b border-solid border-[var(--primary-white)]" src="images/icon-facebook.svg" alt="Facebook"></a></li>
