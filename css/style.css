@@ -744,11 +744,6 @@ video {
   letter-spacing: 0.2em;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-\[var\(--primary-white\)\] {
   color: var(--primary-white);
 }
@@ -845,9 +840,8 @@ video {
     flex-direction: column;
   }
 
-  .max-lg\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  .max-lg\:bg-\[var\(--primary-black\)\] {
+    background-color: var(--primary-black);
   }
 
   .max-lg\:px-6 {
